@@ -1,0 +1,13 @@
+Frankfurt
+London
+15:20
+FRA1
+Frankfurt
+Stuttgart
+16:20
+Fra2
+Frankfurt
+Berlin
+20:00
+FRA2233
+.
