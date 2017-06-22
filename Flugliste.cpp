@@ -13,8 +13,8 @@ void Flugliste::fluegeEinlesen() {
     string time;
     string nr;
     bool breakpoint = false;
-    fstream datei ("/home/stud/NetBeansProjects/Flugticketsystem/load.txt", ios::in);                       //Erstellt ein Stream Objekt und lädt das Textdokument (Pfad muss vor dem testen
-    string line;                                                                                            //angepasst werden, load txt befindet sich im Projekt Ordner)
+    fstream datei ("load.txt", ios::in);                                                                    //Erstellt ein Stream Objekt und lädt das Textdokument
+    string line;                                                                                            
     while (breakpoint == false) {                                                                           //Liest solange Zeilen ein bis ein Punkt eingelesen wurde
             getline (datei, line);
             if (line == ".") {                                                                              //Falls ein Punkt eingelesen wurde wird das einlesen beendet
